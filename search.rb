@@ -1,6 +1,6 @@
 puts "検索ワードの数 N を入力してください:"
-n = gets.to_i 
 
+n = gets.to_i 
 history = []
 
 n.times do
