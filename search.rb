@@ -6,9 +6,7 @@ history = []
 n.times do
   puts "検索ワードを入力してください:"
   word = gets.chomp  
-
   history.delete(word)
-  
   history.unshift(word)
 end
 
